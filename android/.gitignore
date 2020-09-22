@@ -1,0 +1,8 @@
+*.iml
+*.class
+.gradle
+/local.properties
+/.idea/
+GeneratedPluginRegistrant.java
+/.settings/
+/app/.settings/

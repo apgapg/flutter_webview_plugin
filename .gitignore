@@ -1,20 +1,75 @@
 .DS_Store
-.atom/
-.idea
-.vscode
-.packages
+.dart_tool/
 .pub/
-.gradle/
 build/
-ios/.generated/
-packages
-pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.lock
+.packages
+/ota_update/.idea/
 
-example/ios/Podfile.lock
-**/Flutter/App.framework/
-**/Flutter/Flutter.framework/
-**/Flutter/Generated.xcconfig/
-**/Flutter/flutter_assets/
-example/ios/Flutter/flutter_export_environment.sh
-android/.project
-android/.settings/
+ios/.generated/
+
+
+
+# Miscellaneous
+*.lock
+*.log
+*.pyc
+*.swp
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code related
+# .vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+
+.pub-cache/
+
+
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+gen/
+ios/Frameworks/
+/.idea/codeStyles/
+/.idea/libraries/
+/.idea/shelf/
+/.idea/WorkFlow_App.iml
+/.idea/workspace.xml
+/.idea/assetWizardSettings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/encodings.xml
+/ios/Flutter/flutter_export_environment.sh
